@@ -1,7 +1,7 @@
 """
 Template filters for image processing.
 
-Author: Ridwan Halim (ridwaanhall.com)
+Author: Kanik Gupta (ridwaanhall.com)
 License: Apache License 2.0
 """
 

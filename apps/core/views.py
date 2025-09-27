@@ -105,7 +105,7 @@ class CVRedirectView(BaseView):
         Using permanent redirect (301) for better SEO and caching.
         """
         about_data = self.get_about_data()
-        cv_url = about_data.get('cv')
+        cv_url = about_data.get('cvs')
         
         if not cv_url:
             # Fallback to homepage if CV URL is not configured

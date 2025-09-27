@@ -16,7 +16,7 @@ blog_data = {
     },
     "created_at": datetime.strptime("2025-03-24T00:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2025-05-10T14:51:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Halim",
+    "author": "Kanik Gupta",
     "username": "roneha",
     "author_image": settings.AUTHOR_IMG,
     "content": [

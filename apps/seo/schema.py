@@ -132,7 +132,7 @@ class SEOSchemaGenerator:
             "inLanguage": "en-US",
             "keywords": [
                 "ridwaanhall",
-                "ridwan halim", 
+                "Kanik Gupta", 
                 "software developer",
                 "web development",
                 "python",

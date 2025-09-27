@@ -23,7 +23,7 @@ class SEOConfig:
     
     # Site information
     SITE_NAME = "ridwaanhall.com"
-    AUTHOR = "Ridwan Halim"
+    AUTHOR = "Kanik Gupta"
     SITE_URL = getattr(settings, 'BASE_URL', 'https://ridwaanhall.com')
     DEFAULT_IMAGE = f"{SITE_URL}/static/img/default-og-image.webp"
     
@@ -94,7 +94,7 @@ class SEOConfig:
     # Common keywords by category
     COMMON_KEYWORDS = {
         'personal': [
-            'ridwaanhall', 'roneha', 'Ridwan Halim', 'ridwaanhall.com',
+            'ridwaanhall', 'roneha', 'Kanik Gupta', 'ridwaanhall.com',
             'ridwaanhall blog', 'ridwaanhall portfolio',
             'software developer', 'web developer', 'python developer',
             'machine learning engineer', 'AI engineer', 'full stack developer'

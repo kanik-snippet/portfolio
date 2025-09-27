@@ -126,7 +126,7 @@ blog_data = {
     "img_name": "start_with_python.webp",
     "created_at": datetime.strptime("2025-03-24T00:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2025-05-10T13:13:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Halim",
+    "author": "Kanik Gupta",
     "username": "ridwaanhall",
     "author_image": settings.AUTHOR_IMG,
     "content": [
@@ -392,7 +392,7 @@ blog_data = {
     "img_name": "django_optimization.webp",
     "created_at": datetime.strptime("2025-06-09T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2025-06-09T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Halim",
+    "author": "Kanik Gupta",
     "username": "ridwaanhall",
     "author_image": settings.AUTHOR_IMG,
     "content": [
@@ -690,4 +690,4 @@ For technical support or questions about the Individual File System Architecture
 - **GitHub Issues**: [Report Issues](https://github.com/ridwaanhall/ridwaanhall-com/issues)
 - **Email Support**: [hi@ridwaanhall.com](mailto:hi@ridwaanhall.com)
 
-**Built with ❤️ by [Ridwan Halim](https://ridwaanhall.com) - Revolutionizing Content Architecture**
+**Built with ❤️ by [Kanik Gupta](https://ridwaanhall.com) - Revolutionizing Content Architecture**

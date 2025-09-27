@@ -151,7 +151,7 @@ class CVRedirectView(BaseView):
     """
     def get(self, request, *args, **kwargs):
         about_data = self.get_about_data()
-        cv_url = about_data.get('cv')
+        cv_url = about_data.get('cvs')
         
         if not cv_url:
             return HttpResponsePermanentRedirect('/')

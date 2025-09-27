@@ -68,8 +68,8 @@ class SEOMixin:
                 about_data = self.get_about_data()
                 return {
                     'title': 'ridwaanhall.com',
-                    'description': 'Ridwan Halim - Software Developer & ML Engineer',
-                    'keywords': 'Ridwan Halim, ridwaanhall, software developer, ml engineer',
+                    'description': 'Kanik Gupta - Software Developer & ML Engineer',
+                    'keywords': 'Kanik Gupta, ridwaanhall, software developer, ml engineer',
                     'og_image': about_data.get('image_url', ''),
                     'og_type': 'website',
                     'twitter_card': 'summary_large_image',

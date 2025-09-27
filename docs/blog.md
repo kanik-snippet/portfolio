@@ -219,7 +219,7 @@ blog_data = {
     },
     "created_at": datetime.strptime("2024-01-15T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2024-01-20T14:30:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Hall",
+    "author": "Kanik Hall",
     "username": "ridwaanhall",
     "author_image": f"{settings.BASE_URL}/static/img/author/ridwaanhall_20250913_2.webp",
     "is_featured": True,

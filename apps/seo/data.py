@@ -35,7 +35,7 @@ class SEOData:
             'pinterest_verification': '',  # Add your Pinterest verification code
             'twitter_site': '@ridwaanhall',
             'twitter_creator': '@ridwaanhall',
-            'twitter_image_alt': 'ridwaanhall.com - Ridwan Halim Portfolio'
+            'twitter_image_alt': 'ridwaanhall.com - Kanik Gupta Portfolio'
         }
     
     @staticmethod

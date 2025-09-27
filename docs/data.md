@@ -489,7 +489,7 @@ blog_data = {
     },
     "created_at": datetime.strptime("2024-03-15T09:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2024-03-15T09:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Hall",
+    "author": "Kanik Hall",
     "username": "ridwaanhall",
     "author_image": f"{settings.BASE_URL}/static/img/author/ridwaanhall_20250913_2.webp",
     "is_featured": True,
@@ -571,7 +571,7 @@ project = ContentFactory.create_content('project', title='My Project', descripti
         {
             "type": "blockquote",
             "text": "Good code is like a good joke - it needs no explanation, but when you understand it, you appreciate its elegance.",
-            "author": "Ridwan Hall"
+            "author": "Kanik Hall"
         }
     ]
 }
