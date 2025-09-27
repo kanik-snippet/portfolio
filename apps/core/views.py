@@ -7,7 +7,8 @@ import random
 from django.utils import timezone
 from django.http import HttpResponsePermanentRedirect, HttpResponse
 from django.shortcuts import render
-
+from django.conf import settings
+from django.shortcuts import render
 from apps.core.base_views import BaseView
 from apps.data.data_service import DataService
 from apps.seo.mixins import HomepageSEOMixin, ContactSEOMixin, PrivacyPolicySEOMixin
@@ -179,7 +180,10 @@ def dynamic_webmanifest_view(request):
     Serve site.webmanifest with template variables processed.
     Allows using Django template variables like {{ BASE_URL }} in webmanifest.
     """
-    response = render(request, 'site.webmanifest', content_type='application/manifest+json')
+    context = {
+        'BASE_URL': getattr(settings, 'BASE_URL', 'http://localhost:8000')
+    }
+    response = render(request, 'site.webmanifest', context=context, content_type='application/manifest+json')
     
     # Set caching headers for better performance
     response['Cache-Control'] = 'public, max-age=86400'  # Cache for 24 hours
