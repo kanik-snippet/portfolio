@@ -10,7 +10,7 @@ Created at: March 16, 2025
 from pathlib import Path
 from decouple import config, Csv
 from csp.constants import SELF, NONE, UNSAFE_INLINE
-
+import os
 # ------------------------------------------------------------------------------
 # BASE SETTINGS
 # ------------------------------------------------------------------------------
@@ -25,10 +25,10 @@ ACCESS_TOKEN = config('ACCESS_TOKEN')
 WAKATIME_API_KEY = config('WAKATIME_API_KEY')
 WEB3FORM_PAC = config('WEB3FORM_PAC', default='')
 
-BASE_URL = config('BASE_URL', default='http://127.0.0.1:8000' if DEBUG else 'https://ridwaanhall.com')
+BASE_URL = config('BASE_URL', default='http://127.0.0.1:8000')
 BLOG_BASE_IMG_URL = config('BLOG_BASE_IMG_URL', default=f'{BASE_URL}/static/img/blog')
 PROJECT_BASE_IMG_URL = config('PROJECT_BASE_IMG_URL', default=f'{BASE_URL}/static/img/project')
-AUTHOR_IMG = config('AUTHOR_IMG', default=f'{BASE_URL}/static/img/ridwaanhall_20250913_2.webp')
+AUTHOR_IMG = config('AUTHOR_IMG', default=f'{BASE_URL}/static/img/kanik_profile.webp')
 
 # Host configuration
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv()) if DEBUG else [
@@ -328,9 +328,10 @@ USE_TZ = True
 # STATIC FILES SETTINGS
 # ------------------------------------------------------------------------------
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # ------------------------------------------------------------------------------
 # DEFAULT SETTINGS
