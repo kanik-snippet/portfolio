@@ -118,7 +118,7 @@ CONTENT_SECURITY_POLICY = {
             '*.gstatic.com',
             'cdn.jsdelivr.net',
         ],
-        'upgrade-insecure-requests': True,  # Enable in production only
+        'upgrade-insecure-requests': False,  # Enable in production only
     },
     # 'REPORT_ONLY': DEBUG,  # Test in development mode
     # 'REPORT_URI': '/csp-report/' if True else None,  # Report violations in production
