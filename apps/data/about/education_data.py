@@ -40,7 +40,7 @@ class EducationData:
             "years": "2017 - 2021",
             "institution": "Digamber Jain Polytechnic",
             "website": "https://djpbaraut.com/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/djp.jpeg",
+            "logo": f"{settings.BASE_URL}/static/img/logo/djp.jpg",
             "is_last": False,
             "location": {
                 "regency": "Baraut",
