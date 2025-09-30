@@ -89,7 +89,7 @@ class ExperiencesData:
         },
         {
             "id": 11,
-            "title": "Mobiloitte Technologies",
+            "title": "Netzwala Service Private Limited",
             "company": "Desktop App",
             "logo": f"{settings.BASE_URL}/static/img/logo/coding_camp_dbs_foundation.webp",
             "website": "https://github.com/kanik-snippet/desktop-app",
@@ -117,7 +117,7 @@ class ExperiencesData:
         },
         {
             "id": 10,
-            "title": "Mobiloitte Technologies",
+            "title": "Netzwala Service Private Limited",
             "company": "Post-Book",
             "logo": f"{settings.BASE_URL}/static/img/logo/coding_camp_dbs_foundation.webp",
             "website": "https://github.com/kanik-snippet/postbook",
