@@ -2,83 +2,77 @@ from django.conf import settings
 
 
 class AwardsData:
+
     awards = [
+
         {
             "id": 1,
-            "title": "Certificate of Appreciation for Efforts in Memorizing the Quran",
-            "credential_url": "https://drive.google.com/file/d/1-XJlFZzkq00QM9n2m7lh4m641nlT8jod/view",
-            "description": "Certificate of Appreciation for Efforts in Memorizing the Quran",
+            "title": "Gold Medal – Bot Combat | World Techoxian Championship",
+            "credential_url": "",
+            "description": "Secured Gold Medal in the Bot Combat category at the World Techoxian Championship, an international robotics competition often referred to as the robotics world cup. Designed and built a combat robot in collaboration with a multidisciplinary engineering team.",
             "issued": {
-                "month": "Feb",
-                "year": 2020
+                "month": "Aug",
+                "year": 2023
             },
-            "institution": "Islamic Boarding School of Al-Mukmin",
-            "website": "https://almukminngruki.or.id/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/al_mukmin_ngruki.webp",
+            "institution": "World Techoxian Championship",
+            "website": "https://www.techoxian.com/",
+            "logo": f"{settings.BASE_URL}/static/img/logo/techoxian.png",
         },
+
         {
             "id": 2,
-            "title": "Certificate of Scholarship for Memorizing 10 Juz of the Quran",
-            "credential_url": "https://drive.google.com/file/d/1-L8O8h1ErOH2HqKFnMDDVazr-tEpJGEd/view",
-            "description": "I was awarded the Tahfidz Scholarship Certificate for memorizing 10 Juz of the Quran after successfully passing the memorization test. This scholarship is a recognition of my dedication and effort in studying the Quran.",
+            "title": "Bronze Medal – Bot Combat | World Techoxian Championship",
+            "credential_url": "",
+            "description": "Achieved Bronze Medal in the Bot Combat competition at the World Techoxian Championship for designing and building a high-performance combat robot capable of competing at international level robotics events.",
             "issued": {
-                "month": "Mar",
-                "year": 2020
+                "month": "Aug",
+                "year": 2022
             },
-            "institution": "Islamic Boarding School of Al-Mukmin",
-            "website": "https://almukminngruki.or.id/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/al_mukmin_ngruki.webp",
+            "institution": "World Techoxian Championship",
+            "website": "https://www.techoxian.com/",
+            "logo": f"{settings.BASE_URL}/static/img/logo/techoxian.png",
         },
+
         {
             "id": 3,
-            "title": "Certificate of Appreciation for Leadership in Imarotu Syu'unith Tholabah (IST)",
-            "credential_url": "https://drive.google.com/file/d/1-4ciNM2bKyR9fDWoS8t7gU30vkrqvtVc/view",
-            "description": "Awarded for leadership and organizational contributions in IST, a student council-like organization at Al-Mukmin Islamic Boarding School.",
-            "issued": {
-                "month": "Oct",
-                "year": 2020
-            },
-            "institution": "Islamic Boarding School of Al-Mukmin",
-            "website": "https://almukminngruki.or.id/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/al_mukmin_ngruki.webp",
-        },
-        {
-            "id": 4,
-            "title": "Community Top Voice in Programming",
-            "credential_url": "https://www.linkedin.com/in/ridwaanhall/details/honors/",
-            "description": "Recognized as a top 5% contributor in Programming on LinkedIn, showcasing expertise and insightful contributions in the field.",
-            "issued": {
-                "month": "Jul",
-                "year": 2024
-            },
-            "institution": "LinkedIn",
-            "website": "https://www.linkedin.com/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/linkedin.webp",
-        },
-        {
-            "id": 5,
-            "title": "Community Top Voice in Machine Learning",
-            "credential_url": "https://www.linkedin.com/in/ridwaanhall/details/honors/",
-            "description": "Recognized as a top 5% contributor in Machine Learning on LinkedIn, showcasing expertise and insightful contributions in the field.",
+            "title": "Bronze Medal – Bot Combat | World Techoxian Championship",
+            "credential_url": "",
+            "description": "Secured Bronze Medal in the Bot Combat category at the World Techoxian Championship, competing with custom engineered combat robots built through interdisciplinary collaboration between mechanical and software engineering teams.",
             "issued": {
                 "month": "Aug",
                 "year": 2024
             },
-            "institution": "LinkedIn",
-            "website": "https://www.linkedin.com/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/linkedin.webp",
+            "institution": "World Techoxian Championship",
+            "website": "https://www.techoxian.com/",
+            "logo": f"{settings.BASE_URL}/static/img/logo/techoxian.png",
         },
+
         {
-            "id": 6,
-            "title": "Community Top Voice in Informatics",
-            "credential_url": "https://www.linkedin.com/in/ridwaanhall/details/honors/",
-            "description": "Recognized as a top 5% contributor in Informatics on LinkedIn, showcasing expertise and insightful contributions in the field.",
+            "id": 4,
+            "title": "Robotics Competition Participant – RC Racing & Sumo Bots",
+            "credential_url": "",
+            "description": "Actively participated in robotics competitions including RC Racing and Sumo Bot challenges, focusing on robot design, mechanical fabrication, and control systems development.",
             "issued": {
-                "month": "Oct",
+                "month": "Apr",
+                "year": 2023
+            },
+            "institution": "Technical Robotics Competitions",
+            "website": "",
+            "logo": f"{settings.BASE_URL}/static/img/logo/robotics.png",
+        },
+
+        {
+            "id": 5,
+            "title": "Startup Incubation Recognition – ACIC MIET",
+            "credential_url": "",
+            "description": "Selected for startup incubation under ACIC MIET for developing the SERD Button, an IoT based emergency response device. Received support for patent filing, hardware prototyping, component sourcing, and 3D printed product casing development.",
+            "issued": {
+                "month": "Sep",
                 "year": 2024
             },
-            "institution": "LinkedIn",
-            "website": "https://www.linkedin.com/",
-            "logo": f"{settings.BASE_URL}/static/img/logo/linkedin.webp",
-        },
+            "institution": "ACIC MIET Incubation Center",
+            "website": "https://miet.ac.in/",
+            "logo": f"{settings.BASE_URL}/static/img/logo/miet.png",
+        }
+
     ]

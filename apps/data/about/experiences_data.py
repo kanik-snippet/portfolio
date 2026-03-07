@@ -40,10 +40,10 @@ class ExperiencesData:
     experiences = [
         {
             "id": 13,
-            "title": "SERD",
+            "title": "Alessar Solutions Private Limited",
             "company": " Smart Emergency Response Device ",
             "logo": f"{settings.BASE_URL}/static/img/logo/ice.webp",
-            "website": "https://serdevice.xyz",
+            "website": "https://www.serd-button.in",
             "period": {
                 "start": {
                     "month": "July",
@@ -53,20 +53,54 @@ class ExperiencesData:
             },
             "employment_type": employment_types["fn"],
             "location_type": location_types["rm"],
-            "location": "Solo, India 🇮n",
+            "location": "New Delhi, India 🇮🇳",
             "is_current": True,
            "responsibilities": [
-"Engineered IoT-enabled emergency system integrating Raspberry Pi, push-button hardware, and camera module for real-time SOS activation.",
-"Developed backend services in Django to trigger instant video/audio recording upon button press with secure storage.",
-"Implemented automated alert workflows sending SMS and call notifications to pre-registered SOS contacts with recorded media links.",
-"Integrated geolocation services to capture and share the exact location of the incident alongside alerts.",
-"Designed scalable APIs to handle device-to-server communication and SOS event logging with authentication and security layers.",
-"Optimized system for low-latency event response ensuring real-time synchronization between device, server, and user contacts.",
-"Deployed system with monitoring, logging, and fault recovery mechanisms for reliable 24/7 emergency response operations."
+"Founded and leading the development of <strong>SERD (Smart Emergency Response Device)</strong>, an IoT-based safety system designed to trigger instant emergency alerts during critical situations.",
+"Designed and developed the hardware architecture using <strong>Raspberry Pi, push-button trigger system, and camera module</strong> to capture real-time evidence during emergencies.",
+"Built the backend infrastructure using <strong>Django and REST APIs</strong> to process SOS events, manage device communication, and securely store captured media.",
+"Implemented automated <strong>SOS alert workflows</strong> that instantly notify registered emergency contacts through SMS, phone calls, and secure media links.",
+"Integrated <strong>geolocation tracking</strong> to automatically capture and share the exact location of incidents during emergency activation.",
+"Designed a scalable device-to-server communication architecture ensuring <strong>low-latency real-time synchronization</strong> between hardware and backend services.",
+"Currently developing and expanding SERD as a flagship product under <strong>Alessar Solutions</strong>, with a successfully filed <strong>patent application</strong> for the innovation."
 ]   },
+{
+            "id": 14,
+            "title": "Founder – SERD (Smart Emergency Response Device)",
+            "company": "ACIC MIET Incubation Center",
+            "logo": f"{settings.BASE_URL}/static/img/logo/miet.png",
+            "website": "https://miet.ac.in/",
+            "period": {
+                "start": {"month": "Aug", "year": 2024},
+                "end": "Present"
+            },
+            "employment_type": employment_types["fn"],
+            "location_type": location_types["on"],
+            "location": "Meerut, India 🇮🇳",
+            "is_current": True,
+
+            "responsibilities": [
+
+                "Signed an official MOU with ACIC MIET as an incubated founder.",
+
+                "Developing SERD Button, an IoT-based emergency response device designed to trigger real-time SOS alerts.",
+
+                "ACIC supported the complete patent filing process for the innovation.",
+
+                "Designed and built a working prototype including Raspberry Pi integration, hardware components, and camera modules.",
+
+                "Developed product casing through 3D design and 3D printing.",
+
+                "Built backend services using Django and REST APIs for device communication.",
+
+                "Implemented automated emergency alerts including SMS, phone calls, and live location sharing.",
+
+                "Collaborated with ACIC mentors and technical teams to refine product architecture."
+            ]
+        },
         {
             "id": 12,
-            "title": "SERD",
+            "title": "Alessar Solutions Private Limited",
             "company": "Bharat Sanhaar Nigam",
             "logo": f"{settings.BASE_URL}/static/img/logo/bsn.gif",
             "website": "https://github.com/kanik-snippet/bharat-sanchaar-nigam",
@@ -79,13 +113,15 @@ class ExperiencesData:
             },
             "employment_type": employment_types["fn"],
             "location_type": location_types["rm"],
-            "location": "Solo, India 🇮n",
+            "location": "New Delhi, India 🇮🇳",
             "is_current": True,
             "responsibilities": [
-                "Managed data for over 200 alumni, including advanced filtering and data visualization.",
-                "Prepared organizational documents and meeting notes.",
-                "Designed user-friendly interfaces for alumni management."
-            ]
+"Designed and developed <strong>Bharat Sanchaar Nigam</strong>, a hierarchical location-based news and communication platform built with Django.",
+"Implemented a structured governance model allowing different administrative roles such as <strong>Sabhasad, Chairman, Vidhayak, CM, and PM</strong> to publish updates at respective jurisdiction levels.",
+"Developed location-aware content filtering logic ensuring users receive news based on their <strong>state, district, city, and ward</strong> hierarchy.",
+"Built secure backend APIs for content publishing, user role management, and dynamic news distribution.",
+"Designed the system architecture to support scalable public communication between government representatives and citizens."
+]
         },
         {
             "id": 11,
@@ -108,12 +144,11 @@ class ExperiencesData:
             "location": "Okhla Newdelhi, India 🇮n",
             "is_current": False,
             "responsibilities": [
-                "Led weekly mentoring sessions for 24 students, resulting in a 75% graduation rate and maintaining an average attendance of 84%.",
-                "Led weekly mentoring sessions on beginner-friendly machine learning and soft skills for non-tech audiences, using simplified concepts and relatable examples.",
-                "Provided 1.5 hours per week of personalized one-on-one sessions, addressing individual challenges and academic assignments to support student development.",
-                "Conducted alternating weekly sessions on soft and technical skills (2 hours/week) for 50 participants, managing facilitator coordination, content preparation, session moderation, and cohort engagement monitoring.",
-                "Participated in monthly 1.5-hour meetings and professional development sessions for mentors."
-            ]
+"Contributed to the development of a <strong>cross-platform desktop application</strong> designed to streamline internal workflows and productivity tasks.",
+"Worked on backend integrations and system logic while improving application stability and performance.",
+"Collaborated with team members to implement user-focused features and maintain efficient project workflows.",
+"Participated in debugging, testing, and optimizing application modules to ensure smooth production deployment."
+]
         },
         {
             "id": 10,
@@ -136,9 +171,11 @@ class ExperiencesData:
             "location": "Okhla Newdelhi, India 🇮n",
             "is_current": False,
             "responsibilities": [
-                "Acquired comprehensive knowledge of ML Ops to develop robust and scalable machine learning systems.",
-                "Gained practical experience in deploying machine learning models in real-world production environments."
-            ]
+"Worked on the development of <strong>PostBook</strong>, a social-style content management platform built with modern web technologies.",
+"Designed backend APIs and implemented features for post creation, user interactions, and content management.",
+"Gained hands-on experience working with scalable backend architectures and database management.",
+"Collaborated with the development team to improve system performance and feature reliability."
+]
         }
        
     ]

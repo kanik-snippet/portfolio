@@ -35,12 +35,18 @@ class AboutData:
             "short_bio": "I explore through code, share with empathy, and reflect on every challenge. My work weaves machine learning, web creation, and open source. I thrive on collaborating with teams to develop AI and web solutions that blend function with clarity.",
             "short_cta": "Stay a while and see what lives beyond the code.",
             "long_description": "I'm a machine learning engineer and web developer, building AI apps and slick websites that solve real problems. I've memorized nearly 30 Juz of the Quran, which has wired me for grit, focus, and discipline. I've mentored 50+ coders at DBS Foundation's Coding Camp and guided 100+ interns at GAOTek Inc. I've shipped 45+ projects using TensorFlow, PyTorch, and more. I'm all in on using AI to tackle big challenges fast, growing Copilot ID, and dropping value in open-source communities.",
-            "stories": [
-"I’m Kanik, Founder of Serd — a company dedicated to building impactful technology products. Our flagship product, also named Serd, is where I’m currently focused full-time, bringing together my passion for development and innovation.",
-"As a Python and Django developer, I specialize in crafting scalable web applications, SaaS platforms, and IoT-based solutions. Over the past year, I’ve gained hands-on experience in designing APIs, building secure systems, and developing end-to-end digital products that solve real-world problems.",
-"Previously, I worked at Netzwala Service Private Limited, where I contributed to SaaS and product-based projects after completing a 4-month internship. Alongside, I’ve been freelancing and helping clients turn ideas into impactful solutions.",
-"With Serd, my vision is to create technology that not only scales but also makes a meaningful difference. I’m passionate about clean architecture, performance-driven systems, and exploring mobile app development as the next big step.",
-"If you’re interested in collaborating, exploring product synergies, or just talking tech and startups, let’s connect and build something transformative together. 🚀"
+ "stories": [
+"I’m <strong>Kanik Gupta</strong>, a full-stack developer and the founder of <strong>Alessar Solutions</strong>, a technology company focused on building meaningful digital products and real-world solutions. My journey into development started with curiosity about how systems work behind the scenes, and over time that curiosity evolved into a passion for creating scalable products and solving real problems through technology.",
+
+"At <strong>Alessar Solutions</strong>, I’m currently working on one of our flagship innovations — the <strong>Serd Button</strong>. It is designed as an emergency-response solution aimed at improving safety and accessibility during critical situations. The concept has already been <strong>successfully filed for a patent</strong>, marking an important milestone in turning this idea into a real product that can create meaningful impact.",
+
+"As a <strong>Full-Stack Developer</strong>, I work across multiple layers of technology — from backend architecture and APIs to modern web interfaces and connected systems. My focus is on building <strong>scalable web applications</strong>, <strong>SaaS platforms</strong>, and <strong>robust backend systems</strong> that are efficient, secure, and ready for real-world scale.",
+
+"Along with my personal work, I collaborate with a team of <strong>enthusiastic developers</strong> who share the same passion for building technology. Together we help startups and businesses develop products across multiple domains including <strong>web applications</strong>, <strong>websites</strong>, <strong>mobile apps</strong>, <strong>desktop software</strong>, <strong>AI chatbots</strong>, <strong>IoT projects</strong>, and <strong>machine learning models</strong> — using whichever tech stack best fits the problem.",
+
+"Our mission at <strong>Alessar Solutions</strong> is not just to build software, but to build <strong>technology products that solve real-world problems</strong>. Whether it's helping startups turn ideas into scalable platforms or developing innovative products like the <strong>Serd Button</strong>, we focus on creating solutions that combine <strong>innovation, reliability, and performance</strong>.",
+
+"I’m always <strong>open to collaborations</strong>, partnerships, and ambitious projects. If you’re building something exciting or need a team that can help transform your idea into a real product, feel free to connect — let’s build something impactful together."
 ],
             "location": {
                 "regency": "New Delhi",
